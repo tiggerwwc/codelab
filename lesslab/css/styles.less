@@ -1,0 +1,23 @@
+@base: #f938ab;
+@y: unit(20+20, px);
+
+.box-size(100) {
+	width: 300px;
+	height: 300px;
+	}
+	
+.box-size(@x) when (default()) {
+	@z: unit(@x, px);
+	width: @z;
+	height: @z;
+	margin-top: @y;
+}
+
+.box-100{
+	.box-size(100);
+}
+
+.box-200 {
+	background-color: @base;
+	.box-size(200);
+}

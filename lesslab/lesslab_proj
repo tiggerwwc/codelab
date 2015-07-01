@@ -1,0 +1,29 @@
+<NotepadPlus>
+    <Project name="lesslab">
+        <Folder name="css">
+            <Folder name="fonts">
+                <File name="css\fonts\Gotham-Bold.ttf" />
+                <File name="css\fonts\Gotham-Bold.woff" />
+                <File name="css\fonts\Gotham-Medium.ttf" />
+                <File name="css\fonts\Gotham-Medium.woff" />
+            </Folder>
+            <Folder name="lib">
+                <File name="css\lib\bootstrap.css" />
+            </Folder>
+            <File name="css\style.css" />
+        </Folder>
+        <Folder name="images" />
+        <Folder name="include" />
+        <Folder name="js">
+            <Folder name="lib">
+                <File name="js\lib\bootstrap.min.js" />
+                <File name="js\lib\jquery-1.11.3.min.js" />
+                <File name="js\lib\jquery-2.1.3.min.js" />
+                <File name="js\lib\jquery.iosslider.js" />
+                <File name="js\lib\jquery.mask.js" />
+                <File name="js\lib\less.min.js" />
+            </Folder>
+        </Folder>
+        <File name="index.html" />
+    </Project>
+</NotepadPlus>
